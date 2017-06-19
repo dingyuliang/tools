@@ -9,6 +9,7 @@ Download and unzip bigdump.zip on your PC.
 3. Create the working directory (e.g. dump) on your web server
 4. Upload bigdump.php and the dump files (*.sql or *.gz) via FTP to the working directory (take care of TEXT mode upload for bigdump.php and dump.sql but BINARY mode for dump.gz if uploading from MS Windows).
 5. Run the bigdump.php from your web browser via URL like http://www.yourdomain.com/dump/bigdump.php.
+
 Now you can select the file to be imported from the listing of your working directory. Click “Start import” to start.
 BigDump will start every next import session automatically if JavaScript is enabled in your browser.
 Relax and wait for the script to finish. Do NOT close the browser window!
